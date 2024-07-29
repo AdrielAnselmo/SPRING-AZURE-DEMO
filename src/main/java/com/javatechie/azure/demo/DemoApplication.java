@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApplication {
 	@GetMapping("/message")
 	public String message() {
-	    // Faltando um ponto e vírgula na linha anterior
+	    // Faltando um ponto e vírgula na linha anteriors
 	    return "Congratulatz!";
 	}
 	public static void main(String[] args) {
